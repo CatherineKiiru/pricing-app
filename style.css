@@ -1,0 +1,26 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: inside;
+}
+.toggle, .toggler{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+

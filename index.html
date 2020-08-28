@@ -5,25 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <script src="/script.js"></script>
   
 <title>Pricing app</title>
 </head>
 <body>
 <!-------------------start of toggle section------------->
+<h1 style="text-align: center; margin-top: 
+20px;" >Responsive pricing app</h1>
+
 <section class="price-column price-section">
   <label for="active-toggle" id="filt-monthly">Monthly</label>
   <div class="toggle">
     <input type="checkbox" id="switcher" class="check">
     <b class="b-switch"></b>
   </div>
+  <label for="toggler" id="filt-hourly">Hourly</label>
 <!------------------end of toggle section----------------->
 <!------------------start of first price chart----------------->
-  <label for="toggler" id="filt-hourly">Hourly</label>
+  
   <div id="monthly" class="wrapper-full">
     <p class="bandwidth">Pricing in USD. Excludes any applicable tax.</p>
-    <div id="price-chart-wrap">
-      <div id="price-chart">
+    <div id="pricing-chart-wrap">
+      <div id="pricing-chart">
         <div id="smaller-plans">
           <div class="plan">
             <div class="price">
@@ -75,19 +80,49 @@
             <a class="button sign-up" href="#">Sign Up</a>
           </div>
 <!------------start of fourth price chart------------->
-
+          <div class="plan">
+                <div class="price">
+                  <span class="dollar">$</span>
+                  <span class="amount" data-dollar-amount="102.05">102.05</span>
+                  <span class="slash">/</span>
+                  <span class="month">mo</span>
+                </div>
+                <ul>
+                  <li>60GB<span>SSD Disk</span></li>
+                  <li>4GB<span>Memory</span></li>
+                  <li>2 Cores<span>vCPU</span></li>
+                  <li>2667GB/mo<span>Transfer</span></li>
+                </ul>
+                <a class="button sign-up" href="#">Sign Up</a>
+              </div>
+<!------------start of fifth price chart------------->
+              <div class="plan">
+                <div class="price">
+                  <span class="dollar">$</span>
+                  <span class="amount" data-dollar-amount="202.81">202.81</span>
+                  <span class="slash">/</span>
+                  <span class="month">mo</span>
+                </div>
+                <ul>
+                  <li>80GB<span>SSD Disk</span></li>
+                  <li>8GB<span>Memory</span></li>
+                  <li>4 Cores<span>vCPU</span></li>
+                  <li>5333GB/mo<span>Transfer</span></li>
+                </ul>
+                <a class="button sign-up" href="#">Sign Up</a>
+              </div>
+<!------------start of fifth price chart------------->             
         </div>
       </div>
     </div>
   </div>
+  </div>
+</section>
 
 
 
-<h1 style="text-align: center; margin-top: 
-20px;" >Responsive pricing app</h1>
 
-
-  Our Pricing
+ <!----- Our Pricing
   Annually
   Monthly
 
@@ -128,7 +163,7 @@
     </ul> 
   </div>
 </section>
-
+---------->
  
 
 </body>
