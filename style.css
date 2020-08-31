@@ -15,7 +15,7 @@ body {
 ul,li{
     margin: 0;
     padding: 0;
-    list-style: inside;
+    list-style: none;
 }
 /*-------------------start of toggle section-------------*/
 .toggle, .toggler{
@@ -83,10 +83,40 @@ ul,li{
     width: 100%;
     text-align: center;
 }
+.pricing-columns .wrapper-full {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
 .pricing-columns #pricing-chart,
 .pricing-columns-both #pricing-chart{
     margin-top: 100%;
     float: left;
     position: relative;
 }
-
+.pricing-columns #pricing-chart
+#smaller-plans, .pricing-columns-both
+#pricing-chart #smaller-plans {
+    display: block;
+}
+.pricing-columns #pricing-chart
+.plan, .pricing-columns-both
+#pricing-chart .plan {
+    float: left;
+    background-color: #fafafa;
+    position: relative;
+    color: #454545;
+    padding: 14px;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    width: 207px;
+}
+.pricing-columns #pricing-chart .plan
+.price, .pricing-columns-both
+#pricing-chart .plan .price {
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 17px;
+}
