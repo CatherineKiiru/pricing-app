@@ -120,3 +120,23 @@ ul,li{
     margin-bottom: 35px;
     margin-top: 17px;
 }
+.pricing-columns #pricing-chart .plan .price .dollar
+.pricing-columns-both #pricing-chart .plan .price
+.dollar {
+    top: -10px;
+    letter-spacing: -1px;
+    left: 3px;
+}
+.pricing-columns #pricing-chart .plan .price .amount
+.pricing-columns-both #pricing-chart .plan .price 
+.amount {
+    font-size: 30px;
+    font-weight: 600;
+}
+.pricing-columns #pricing-chart .plan .price 
+.slash, .pricing-columns-both #pricing-chart .plan
+ .price .slash {
+    font-weight: 600;
+    left: -2px;
+ }
+ 
