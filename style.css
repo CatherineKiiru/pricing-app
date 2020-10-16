@@ -111,6 +111,20 @@ ul,li{
     border-bottom: 1px solid #e1e1e1;
     width: 207px;
 }
+.pricing-columns #pricing-chart
+.plan:first-child, .pricing-columns-both
+#pricing-chart .plan:first-child {
+    border-left: 1px solid #e1e1e1;
+}
+.pricing-columns #pricing-chart .plan:before,
+.pricing-columns-both #pricing-chart
+.plan:before 
+
+
+
+
+
+
 .pricing-columns #pricing-chart .plan
 .price, .pricing-columns-both
 #pricing-chart .plan .price {
