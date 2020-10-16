@@ -118,12 +118,15 @@ ul,li{
 }
 .pricing-columns #pricing-chart .plan:before,
 .pricing-columns-both #pricing-chart
-.plan:before 
-
-
-
-
-
+.plan:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: -1px;
+    top: 0;
+    background-color: #233e48;
+    width:207px;
+}
 
 .pricing-columns #pricing-chart .plan
 .price, .pricing-columns-both
@@ -153,4 +156,22 @@ ul,li{
     font-weight: 600;
     left: -2px;
  }
- 
+
+ .pricing-columns #pricing-chart .plan .price
+ .month, .pricing-columns-both #pricing-chart
+ .plan .price .month {
+     font-weight: 600;
+     left: -7px;
+ }
+ .pricing-columns #pricing-chart .plan ul,
+ .pricing-columns-both #pricing-chart .plan ul {
+     padding: 0 18px;
+     margin-bottom: 40px;
+ }
+.pricing-columns #pricing-chart .plan ul li,
+.pricing-columns-both #pricing-chart .plan ul li {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
