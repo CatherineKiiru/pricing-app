@@ -175,3 +175,15 @@ ul,li{
     text-align: left;
     margin-bottom: 20px;
 }
+
+/*----to be continued from line 160 in code pen---*/
+/*----October 26th----*/
+.pricing-columns #pricing-chart .plan ul li span,
+.pricing-columns-both #pricing-chart .plan ul li
+span {
+    color: #9e9e9e;
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: 400;
+    font-size: 14px;
+}
