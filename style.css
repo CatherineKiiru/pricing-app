@@ -187,3 +187,29 @@ span {
     font-weight: 400;
     font-size: 14px;
 }
+.pricing-columns #pricing-chart .plan a.sign-up,
+.pricing-columns-both #pricing-chart .plan a.sign-up {
+    width: 100%;
+    padding: 13px;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius:3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #9e9e9e;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    clear: left;
+    letter-spacing: 1.5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
