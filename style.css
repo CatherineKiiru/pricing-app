@@ -213,3 +213,77 @@ span {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
+.pricing-section .sign-up {
+    padding: 17px 50px;
+    text-transform: uppercase;
+    background-color: #93cc76;
+    color: white;
+    letter-spacing: 0.1rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    white-space: pre;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+.pricing-columns #pricing-chart .popular, .pricing-columns-both 
+#pricing-chart .popular {
+    width: 274px;
+    position: relative;
+    top: -30px;
+    background-color: white;
+    margin-left: -2px;
+    right: 0;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+
+}
+.pricing-columns #pricing-chart .popular:before, 
+.pricing-columns-both #pricing-chart .popular:before {
+    width: 274px;
+    background-color: #9d1726;
+    border: none;
+    color: #ffffff;
+}
+.pricing-columns #pricing-chart .popular .price .amount,
+.pricing-columns-both #pricing-chart .popular .price .amount {
+    font-size: 60px;
+}
+.bandwidth {
+    display: block;
+    color: #9e9e9e;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}
+.pricing-columns #pricing-chart .popular p.pop-plan, 
+.pricing-columns-both #pricing-chart .popular p.pop-plan {
+    color: #454545;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.pricing-columns #pricing-chart .popular .price,
+.pricing-columns-both #pricing-chart .popular .price {
+    margin-bottom: 0px;
+}
+,.pricing-columns #pricing-chart .plan a.sign-up:hover,
+.pricing-columns-both #pricing-chart .plan a.sign-up:hover{
+    border: 0;
+    color: #fff;
+    opacity: 0.8;
+}
+.hide{
+    display: none;
+}
