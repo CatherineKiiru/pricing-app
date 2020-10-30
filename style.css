@@ -90,7 +90,7 @@ ul,li{
 }
 .pricing-columns #pricing-chart,
 .pricing-columns-both #pricing-chart{
-    margin-top: 100%;
+    margin-top: 100px;
     float: left;
     position: relative;
 }
@@ -127,7 +127,6 @@ ul,li{
     background-color: #233e48;
     width:207px;
 }
-
 .pricing-columns #pricing-chart .plan
 .price, .pricing-columns-both
 #pricing-chart .plan .price {
@@ -265,7 +264,7 @@ span {
     color: #9e9e9e;
     font-size: 16px;
     position: absolute;
-    right: 0;
+    margin-left: 800px;
     bottom: -90px;
 }
 .pricing-columns #pricing-chart .popular p.pop-plan, 
@@ -278,7 +277,7 @@ span {
 .pricing-columns-both #pricing-chart .popular .price {
     margin-bottom: 0px;
 }
-,.pricing-columns #pricing-chart .plan a.sign-up:hover,
+.pricing-columns #pricing-chart .plan a.sign-up:hover,
 .pricing-columns-both #pricing-chart .plan a.sign-up:hover{
     border: 0;
     color: #fff;
