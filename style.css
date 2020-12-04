@@ -4,6 +4,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,6 +15,34 @@ body {
     text-rendering: auto;
     -moz-osx-font-smoothing: grayscale;
 }
+nav {
+    background: #0082e6;
+    height: 60px;
+    width: 100%;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 50px;
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
 ul,li{
     margin: 0;
     padding: 0;
@@ -21,6 +52,7 @@ ul,li{
 .toggle, .toggler{
     display: inline-block;
     vertical-align: middle;
+    margin: 10px;
    
 }
 .toggler{

@@ -1,16 +1,8 @@
-<!-- # Frontend Mentor - File Transfer pricing component
+ # File Transfer pricing component
+This is a Frontend Mentor challenge to build a pricing component with a toggle feature.
 
-![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
+# Features:
 
-## Welcome! 👋
-
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
-
-## The challenge
 
 Your challenge is to build out this pricing component and get it looking as close to the design as possible.
 
