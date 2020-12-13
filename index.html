@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <script src="/script.js"></script>
   
@@ -13,9 +14,13 @@
 <body>
 <!------------------------navbar----------------------->
 <nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
   <label class="logo">CloudX</label>
   <ul>
-    <li><a href="#">Home</a></li>
+    <li><a class="active"href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Contacts</a></li>
@@ -23,9 +28,9 @@
   </ul>
 </nav>
 
+<!---------------------Heading 1----------------------------->
 <h1 style="text-align: center; margin-top: 
 30px; margin-bottom: -30px;" >Pricing</h1>
-
 
 <!-------------------start of toggle section------------->
 <section class="pricing-columns pricing-section">

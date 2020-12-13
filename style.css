@@ -14,24 +14,26 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: auto;
     -moz-osx-font-smoothing: grayscale;
+    
 }
+
+/*---------------Start of navbar---------------*/
 nav {
     background: #0082e6;
     height: 60px;
-    width: 100%;
+    width: 100%; /* changed width from 1100px to 100% to
+    match the size of the pricing section*/
 }
 label.logo {
     color: white;
     font-size: 35px;
     line-height: 60px;
-    padding: 0 50px;
-    
+    padding: 0 50px;  
 }
 nav ul {
     float: right;
     margin-right: 20px;
 }
-
 nav ul li {
     display: inline-block;
     line-height: 60px;
@@ -40,9 +42,26 @@ nav ul li {
 nav ul li a{
     color: white;
     font-size: 17px;
-    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;  
+}
+a.active, a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;   
+}
+#check{
+    display: none;
 }
 
+/*---------------end of navbar----------------------*/
 ul,li{
     margin: 0;
     padding: 0;
@@ -53,7 +72,6 @@ ul,li{
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-   
 }
 .toggler{
     color: #ddd;
@@ -110,20 +128,22 @@ ul,li{
 /*-------------------end of toggle section-------------*/
 /*-----------------start of pricing section-----------*/
 .pricing-section {
-    padding: 110px 0 150px 0;
-    float: left;
-    width: 100%;
+    padding: 50px;
+    width: 100%; /* changed width from 1100px to 100%. 
+    This is so that all pricing columns can fit along the 
+    horizontal section*/
     text-align: center;
 }
 .pricing-columns .wrapper-full {
     position: relative;
-    width: 1100px;
+    width: 100%; /*temporary change from 1100px to test*/
     margin: 0 auto;
 }
 .pricing-columns #pricing-chart,
 .pricing-columns-both #pricing-chart{
     margin-top: 100px;
     float: left;
+    margin-left: 50px;
     position: relative;
 }
 .pricing-columns #pricing-chart
@@ -141,7 +161,7 @@ ul,li{
     padding: 14px;
     border-right: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
-    width: 207px;
+    width: 180px;/* temporary change from 207px*/
 }
 .pricing-columns #pricing-chart
 .plan:first-child, .pricing-columns-both
@@ -157,12 +177,12 @@ ul,li{
     left: -1px;
     top: 0;
     background-color: #233e48;
-    width:207px;
+    width:181px; /*changed width from 207px to fit the plan wrapper*/
 }
 .pricing-columns #pricing-chart .plan
 .price, .pricing-columns-both
 #pricing-chart .plan .price {
-    font-size: 26px;
+    font-size: 18px;
     float: left;
     width: 100%;
     margin-bottom: 35px;
@@ -187,7 +207,6 @@ ul,li{
     font-weight: 600;
     left: -2px;
  }
-
  .pricing-columns #pricing-chart .plan .price
  .month, .pricing-columns-both #pricing-chart
  .plan .price .month {
@@ -201,12 +220,11 @@ ul,li{
  }
 .pricing-columns #pricing-chart .plan ul li,
 .pricing-columns-both #pricing-chart .plan ul li {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 15px;
     text-align: left;
     margin-bottom: 20px;
 }
-
 /*----to be continued from line 160 in code pen---*/
 /*----October 26th----*/
 .pricing-columns #pricing-chart .plan ul li span,
@@ -296,7 +314,7 @@ span {
     color: #9e9e9e;
     font-size: 16px;
     position: absolute;
-    margin-left: 790px;
+    margin-left: 690px; /*changed from 790px*/
     bottom: -90px;
 }
 .pricing-columns #pricing-chart .popular p.pop-plan, 
@@ -318,3 +336,4 @@ span {
 .hide{
     display: none;
 }
+
