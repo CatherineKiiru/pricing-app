@@ -1,8 +1,12 @@
- # File Transfer pricing component
-This is a Frontend Mentor challenge to build a pricing component with a toggle feature.
+# ![Pricing component](/home/catherine/documents/pricing-app/images/Pricing app snapshot.jpg)
 
-# Features:
+# About
+This is a Frontend Mentor challenge to build a pricing component with a toggle feature. I went ahead and added a navigation bar courtesy of https://www.youtube.com/watch?v=oLgtucwjVII
 
+#  Features:
+- A responsive toggle feature desinged with Javascript
+- A navigation bar with hover effects
+- Responsive design suitable for different viewports
 
 Your challenge is to build out this pricing component and get it looking as close to the design as possible.
 
