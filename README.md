@@ -1,9 +1,9 @@
-# ![Pricing component](images/Pricing app.png)
+## ![Pricing component](https://github.com/CatherineKiiru/pricing-app/blob/master/images/Pricing%20app.png)
 
-# About
+## About
 This is a Frontend Mentor challenge to build a pricing component with a toggle feature. I went ahead and added a navigation bar courtesy of https://www.youtube.com/watch?v=oLgtucwjVII
 
-#  Features:
+##  Features:
 - A responsive toggle feature desinged with Javascript
 - A navigation bar with hover effects
 - Responsive design suitable for different viewports
