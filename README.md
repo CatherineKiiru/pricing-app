@@ -1,4 +1,4 @@
-# ![Pricing component](/home/catherine/documents/pricing-app/images/Pricing app snapshot.jpg)
+# [Pricing component](images/Pricing app snapshot.jpg)
 
 # About
 This is a Frontend Mentor challenge to build a pricing component with a toggle feature. I went ahead and added a navigation bar courtesy of https://www.youtube.com/watch?v=oLgtucwjVII
